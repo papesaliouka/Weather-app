@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1577688723008-7c501eae6f26?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open sans' ,sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(163, 130, 166, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    width: 90%;
+    height: 60%;
+    max-width: 43.75rem;
+    max-height: 25rem;
+    box-shadow: 0 .3125rem .625rem .3125rem rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1577688723008-7c501eae6f26?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+}
+
+.search i {
+    cursor: pointer;
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+.content{
+    height: 100%;
+    width: 40%;
+    backdrop-filter: blur(10px);
+    
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 3.75rem;
+}
+
+.bloc{
+    display: flex;
+    padding-top: 2.5rem;
+    justify-content: center;
+}
+
+.bloc input{
+    padding: .3125rem 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgba(163, 130, 166, 0.3);
+    color: whitesmoke;
+}
+
+button{
+    background-color:rgba(0,0,0,0.1);
+    padding: 5px;
+}
+
+.sub-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: whitesmoke;
+    margin: .625rem auto;
+}
